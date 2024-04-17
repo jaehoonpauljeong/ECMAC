@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<copy file="expressway.net.xml" />
+	<copy file="expressway.rou.15.twoway.xml"/>
+	<copy file="expressway.poly.xml" />
+	<copy file="expressway.sumo.15.twoway.cfg" type="config" />
+</launch>

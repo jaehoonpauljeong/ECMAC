@@ -1,0 +1,11 @@
+scheme,ECMAC
+BGTI,0
+seed,3
+density,5
+gPeTxPackets,184
+gPeRxPackets,122
+gPeRxDropPkts,12784
+PDR,0.663043
+maxE2EDelay,0.0189567
+meanE2EDelay,0.0121595
+

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<copy file="longexpressway.net.xml" />
+	<copy file="longexpressway.rou.90.xml"/>
+	<copy file="longexpressway.sumo.90.cfg" type="config" />
+</launch>

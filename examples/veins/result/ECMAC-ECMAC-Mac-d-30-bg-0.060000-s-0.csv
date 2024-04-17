@@ -1,0 +1,17 @@
+scheme,ECMAC
+BGTI,0.06
+seed,0
+density,30
+NumVeh,171
+ClusterLayers,3
+ClusterSize,13
+ClusterNum,14
+meanSlotCountByTSAlgo,36
+meanSlotCountOptimal,13
+gPeQueuePkts,70
+gPeQueueDelPkts,0
+gPeQueueExpiredPkts,0
+gPeBitErrPkts,13068
+gPeTxWhileSendPkts,127
+gPePhyDropPkts,0
+

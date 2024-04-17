@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="cross.net.xml" />
+	<copy file="cross.rou.xml" />
+	<copy file="cross.sumo.cfg" type="config" />
+</launch>
+

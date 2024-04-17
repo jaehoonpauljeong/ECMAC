@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="expressway.net.xml" />
+	<copy file="expressway.rou.xml" />
+	<copy file="expressway.sumo.cfg" type="config" />
+</launch>
+

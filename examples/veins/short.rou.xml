@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Nov 27 03:54:43 2015 by SUMO duarouter Version 0.22.0D
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="./expressway.net.xml"/>
+        <trip-files value="./expressway.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="expressway.rou.xml"/>
+    </output>
+
+    <defaults>
+        <departlane value="best"/>
+        <departpos value="random_free"/>
+    </defaults>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    
+    <vType id="a" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="33.528" speedFactor="1" speedDev="0.2"/>
+    
+    <vType id="b" accel="2.2" decel="4.5" sigma="0.5" length="5" maxSpeed="33.528" speedFactor="1" speedDev="0.2"/>
+    
+    
+    <route id="route0" edges="0/1to1/1" />
+	
+	<!--
+	<flow id="flow1" begin="0" end= "7200" probability="0.6" type="a" route="route0" departLane="random" departSpeed="random" />
+	
+ 	<flow id="flow2" begin="0" end= "7200" probability="0.6" type="a" route="route0" departLane="random" departSpeed="random" />
+    
+    <flow id="flow3" begin="0" end= "7200" probability="0.2" type="a" route="route0" departLane="random" departSpeed="random" />
+    -->
+    
+    
+    <vehicle id="0" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="1" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="2" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>    
+    <vehicle id="3" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="4" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="5" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="6" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="7" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="8" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="9" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="10" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="11" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="12" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="13" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="14" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="15" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="16" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="17" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="18" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="19" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="20" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="21" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="22" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="23" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="24" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="25" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="26" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="27" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="28" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="29" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="30" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="31" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="32" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="33" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="34" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+    <vehicle id="35" type="a" departSpeed="random" depart="0.00" departLane="best" departPos="random_free">
+        <route edges="0/1to1/1"/>
+    </vehicle>
+
+    
+    <!--
+    -->
+</routes>
